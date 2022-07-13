@@ -1,0 +1,18 @@
+.git{
+    color:white;
+    font-size: 24px;
+    margin:0.5rem;
+}
+
+.linkedin{
+    color:white;
+    font-size: 24px;
+    margin:0.5rem;
+}
+
+.git:hover {
+    color:yellow;
+  }
+  .linkedin:hover {
+    color:yellow;
+  }

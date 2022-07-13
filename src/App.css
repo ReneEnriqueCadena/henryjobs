@@ -1,0 +1,30 @@
+.body{
+  background-image: url('../src/Components/images/background/gitOk_1.gif');
+  /* background-size: cover; */
+  margin:0;
+   @import url(//db.onlinewebfonts.com/c/901497541657a2f24e42848bcf7fad52?family=Avenir+Heavy);
+  /* font-family: Avenir Heavy;  */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap');
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  
+  height:auto;
+  /* border:1px solid red; */
+}
+h1{
+  color:yellow;
+}
+
+h2{
+  color:yellow;
+}
+h3{
+  color:yellow;
+}
+
+.root #8727bac4_1655907674 {
+
+  background-color: black;
+
+}

@@ -1,0 +1,89 @@
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+button{
+    width: 7rem;
+    height: 2rem;
+    background-color: #fffc04;
+    display: flex;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-color: #fdfc06;
+}
+.button:hover {
+    background-color: black;
+    color:rgb(255, 255, 255);
+    border:2px solid #fffc04;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Modal{
+     position: fixed;
+     top: 15%;
+     left: 15%;
+     right: 15%;
+     bottom: auto;
+     box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
+     -webkit-box-shadow: 0px 0px 8px 0px rgb(33 35 41);
+     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     background-color: #010100;
+     border-radius: 2rem;
+     height: auto;
+ 
+    
+  }
+
+  .Overlay{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+    background: #00000091;
+  }
+  label{
+    color: white;
+    /* border: none; */
+    font-size: 12px;
+    font-family: sans-serif;
+}
+form{
+    margin: 2rem;
+    background: #212329;
+    padding: 2rem;
+    height: auto;
+    width: auto;
+    border-radius: 2rem;
+}
+.inputForm{
+    border: solid yellow;
+    border-radius: 0.5rem;
+    background: black;
+    align-content: normal;
+    height: 2rem;
+    width: 90%;
+    margin: 1rem;
+}
+h1{
+    color: white;
+    /* border: none; */
+    font-size: 23px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
